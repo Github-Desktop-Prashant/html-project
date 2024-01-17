@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <main class='main'>
+        <nav class='navBar'>
+            <h1>Prashant Santosh Badgujar</h1>
+            <div class='navigationMenu'>
+                <a href="#aboutMe">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contactForm">Let's Connect!</a>
+                <div>
+        </nav>
+        <section class='heroSection'>
+            <img class='profileImage' src="../ASSETS/Images/avatar.png">
+            <div class='herosectionDetails'>
+                <h1>Prashant Badgujar</h1>
+                <h3>Frond-End Developer</h3>
+            </div>
+        </section>
+        <section class='aboutMe' id='aboutMe'>
+            <h1>What I Do...</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum amet consectetur architecto fuga rem
+                quaerat recusandae dignissimos porro aperiam incidunt, provident sed culpa adipisci suscipit omnis
+                officia necessitatibus dolores ipsa! Voluptatem modi illo harum quo exercitationem velit. Nihil placeat
+                eveniet rem fugit quae aut, minima, itaque cumque facilis fugiat perferendis dicta temporibus dolores
+                eum quam harum officia suscipit magni expedita, ab culpa asperiores natus quis? Non quas est officiis,
+                quos maxime reiciendis, nisi, ex aut ad nobis iure. Neque, blanditiis rem. Voluptate corporis,
+                recusandae repellat quis nobis dolorum sint eaque quod consequuntur vero quasi. Vero consequuntur facere
+                corrupti omnis unde!</p>
+        </section>
+        <section class='skillsAndProjects'>
+            <div class='skills' id='skills'>
+                <h1 class='cardHeading'>Skills</h1>
+                <img title='HTML' src='../ASSETS/Images/html-svgrepo-com.svg'>
+                <img title='CSS' src='../ASSETS/Images/css.svg'>
+                <img title='Javascript' src='../ASSETS/Images/javascript-logo.svg'>
+                <img title='Node.JS' src='../ASSETS/Images/nodejs-1-logo.svg'>
+                <img title='React' src='../ASSETS/Images/react-1-logo.svg'>
+                <img title='MongoDB' src='../ASSETS/Images/mongodb.svg'>
+                <img title='Firebase' src='../ASSETS/Images/firebase-1-logo.svg'>
+                <img title='Redux' src='../ASSETS/Images/redux-logo.svg'>
+            </div>
+            <div class='projects' id='projects'>
+                <h1 class='cardHeading'>Projects</h1>
+                <div class='projectContainer'>
+                    <img src='../ASSETS/Images/css.svg' />
+                    <div class='projectDescription'>
+                        <h4>Project Name</h4>
+                        <p>Some details of the project.Some details of the project.Some details of the project.</p>
+                    </div>
+                </div>
+                <div class='projectContainer'>
+                    <img src='../ASSETS/Images/css.svg' />
+                    <div class='projectDescription'>
+                        <h4>Project Name</h4>
+                        <p>Some details of the project</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='contactForm' id='contactForm'>
+            <h1>Let's Connect!</h2>
+                <div class='formGroup'>
+                    <label for='name'>Enter Full Name</label><br />
+                    <input type='text' id='name' placeholder='Full Name' />
+                </div>
+                <div class='formGroup'>
+                    <label for='email'>Email</label><br />
+                    <input type='text' id='email' placeholder='Email' />
+                </div>
+                <div class='formGroup'>
+                    <label for='message'>Message</label><br />
+                    <textarea placeholder="Send some message!" id="message" name="w3review" rows="4"
+                        cols="50"></textarea>
+                </div>
+                <button class='submitButton' onClick={submit()}>Connect</button>
+        </section>
+    </main>
+</body>
+
+</html>

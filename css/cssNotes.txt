@@ -1,0 +1,82 @@
+21/09/2021
+
+css- it is use design webpage or website.
+    ~cascading style sheet
+    ~css3
+
+*there threeways to use css
+1.inline css
+2.internal css
+3.extrenal css
+
+-is you want apply internally or extrenally
+ syntax : 	selector{
+			property:value;
+			property:value;
+		}
+
+*se/lector in css:
+ 1.element selector(p,div,h1-h6,img)
+ 2.grouping selector(it is collection of element p,div,h1-h6,img)
+ 3.id selector (#): to identify uniqly
+ 4.class selector(.) : this is use for multiple element.
+ 5.universal selector(*) : apply css to all element in website.
+============================================================================================================================================================
+ 23/09/2021
+
+*boxmodel:
+
+ 1.border:it is an outline around content 
+ 2.margin:
+ 3.padding: it clear area content and border
+ 4.content: it can be any text or image.
+
+Task1: enlage an image when we hovewr on it
+
+display: we can manage layout an element.
+
+*display:	none, block
+*visibility: 	hidden
+*float:		left,right
+============================================================================================================================================================
+24/09/2021
+
+1.position:static => 	if you want apply left,right,top,bottom it will not work
+2.position:relative => left,right,top,bottom will work (means element can perform can change location)
+3.position:absolute => 	if we want child element must work accouring parent element. in this parent element must have
+						position:relative
+4.position:fixed => we you to fixed element on view 
+5.position:sticky : it will available on webpage but is can stick on perticular border.
+
+z-index: 1 or 0 
+============================================================================================================================================================
+29/09/2021 
+
+*dropdown list
+*box-shadow
+*box-sizing : it include padding and border size in element total width.
+============================================================================================================================================================
+30/09/2021
+
+*form element with css
+*design logic form
+============================================================================================================================================================
+1/10/2021
+
+*use of Font-awesome icon
+
+*gradient: it allow us to smoot transformation of color.
+1.linear
+ex. background-image: linear-gradient( red, blue, green);
+	background-image: linear-gradient(to right, red, blue, green);
+	background-image: linear-gradient(to bottom, red, blue, green);
+	background-image: linear-gradient(180deg, red, blue, green);
+
+2.radient
+*transition-timing-function:
+ linear: 						same speed
+ ease:							start-slow,fast,end-slow
+ ease-in:						start-slow
+ ease-out:
+
+ =====================================================================================================================================

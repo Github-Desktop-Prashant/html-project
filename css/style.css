@@ -1,0 +1,282 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/* universal selector */
+* {
+  outline: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Smooth Scroll */
+html{
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbar  */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+/* Custom Scrollbar END */
+
+/* Styles for background */
+body::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+180deg
+, rgba(255, 255, 255, 0.72) 0%, rgba(255, 255, 255, 0.45) 100%);
+  -webkit-backdrop-filter: saturate(3);
+  backdrop-filter: saturate(3);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(data:image/jpeg;base64,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);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 0.8em;
+  }
+}
+
+main {
+  background-color: rgb(255 255 255 / 31%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1250px;
+  width: 100%;
+  border-radius: 5px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  font-weight: 500;
+  padding: 1rem 1rem 2rem 1rem;
+  overflow: auto;
+}
+
+main::-webkit-scrollbar{
+  display: none;
+}
+
+/* navbar styles */
+.navBar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1.5px solid rgb(255 255 255 / 35%);
+}
+
+.navBar > h1,.navBar > navigationMenu{
+  margin: 10px;
+}
+
+.navigationMenu > a{
+  padding: 5px 10px;
+  margin-left: 10px; 
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+.navigationMenu > a:hover{
+  transition: ease-in-out 300ms;
+  background: white;
+}
+
+@media only screen and (max-width: 760px){
+  .navigationMenu{
+    display: none;
+  }
+}
+/* navbar styles end */
+
+/* Hero section styles */
+.heroSection{
+  margin: 2rem 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.profileImage{
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+
+.herosectionDetails{
+  text-align: center;
+}
+
+.herosectionDetails > h1{
+  font-size: 50px;
+  margin: 10px;
+}
+
+/* Hero section styles end */
+
+/* about me styles */
+.aboutMe{
+  margin: 1rem;
+  text-align: center;
+}
+/* about me styles end */
+
+.skillsAndProjects{
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: [one] 50% [two] 50%;
+  grid-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - 2rem);
+}
+
+@media only screen and (max-width: 720px){
+  .skillsAndProjects{
+    grid-template-columns: [one] 100%;
+    grid-template-rows: [one] [two]; 
+  }
+}
+
+.skillsAndProjects > .skills,.skillsAndProjects> .projects{
+  min-width: 250px;
+  margin: 1rem;
+  min-height: 250px;
+}
+
+.skillsAndProjects > .skills, .skillsAndProjects > .projects{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(255 255 255 / 31%);
+  border: 1px solid rgb(255 255 255 / 31%);
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cardHeading{
+  display: block;
+  width: 90%;
+  /* text-align: center; */
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.skillsAndProjects > .skills > img{
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+.skillsAndProjects > .skills > img:hover{
+  transition: ease-in 300ms;
+  transform: scale(0.85);
+  cursor: pointer;
+}
+
+.projectContainer{
+  display: flex;
+  width: 90%;
+}
+
+.projectContainer > img{
+  width: 60px;
+  height: 60px;
+  padding-right: 10px;
+}
+
+.projectContainer > .projectDescription > h4{
+  margin: 0;
+}
+
+.projectContainer > .projectDescription > p{
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.contactForm{
+  margin: 2rem;
+  width: calc(100% - 4rem);
+  background-color: rgb(255 255 255 / 31%);
+  border: 1px solid rgb(255 255 255 / 31%);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.contactForm > .formGroup{
+  margin-bottom: 1rem;
+}
+
+.formGroup > input, .formGroup > textarea{
+  width: 100%;
+  padding: 5px 10px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.submitButton{
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 460px){
+
+  .profileImage{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+  }
+
+  .herosectionDetails > h1{
+    font-size: 30px;
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
+  } 
+
+  .herosectionDetails > h3{
+    font-size: 20px;
+    margin: 0;
+    font-weight: 400;
+  }
+}

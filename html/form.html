@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="../JS/index.js">
+</head>
+
+<body>
+    <form>
+        <label>Enter Your FullName:</label>
+        <input type="text" name="fname" placeholder="enter your fullname" autofocus maxlength="20" minlength="3"
+            required>
+        <br> <br>
+
+        <label>Enter Your Password:</label>
+        <input type="password" name="pass" placeholder="enter your password" required>
+        <br> <br>
+
+        <label>Enter your Email Id:</label>
+        <input type="email" name="email" placeholder="enter your email" required>
+        <br> <br>
+
+        <label>Enter Your Contract:</label>
+        <input type="tel" name="contract" placeholder="enter your contract" required>
+        <br> <br>
+
+        <label>DOB:</label>
+        <input type="date" name="dob">
+        <br> <br>
+
+        <label>Select Gender:</label>
+        <input type="radio" name="gendre" value="male">Male
+        <input type="radio" name="gendre" value="female">FeMale
+        <br> <br>
+
+        <label>Qualification:</label>
+        <input type="checkbox" name="edu" value="ssc">SSC
+        <input type="checkbox" name="edu" value="hsc">HSC
+        <input type="checkbox" name="edu" value="uc">PC
+        <input type="checkbox" name="edu" value="pc">UG <br> <br>
+
+        <select name="course">
+            <option selected >Select your course</option>
+            <option value="angular">Angular</option>
+            <option value="mean">MEAN</option>
+            <option value="mern">MREN</option>
+            <option value="python">PYTHON</option>
+        </select>
+
+        <br> <br>
+
+        <label>Course Fees:</label>
+        <input type="text" name="feea" value="10000" disabled readonly>
+        <br> <br>
+
+        <label>write feedback or query:</label>
+        <textarea name="feedback" id="" cols="30" rows="10"></textarea>
+        <br> <br>
+
+        <fieldset>
+            <legend>Account Details</legend>
+            <label>Acc No:</label>
+            <input type="text" name=""> <br> <br>
+            <label>IFSC code:</label>
+            <input type="text" name="ipsc">
+        </fieldset>
+
+        <br> <br>
+
+        <label>Uplaod your Profile:</label>
+        <input type="file" name="file" required>
+        <br> <br>
+
+        <br> <br>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>

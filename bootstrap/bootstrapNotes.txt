@@ -1,0 +1,43 @@
+5/10/2021
+
+*Bootstrap : it is html,css and js framework. it provide inbuilt classes
+			 we can give good look or  we can 
+
+
+*there are two ways to use bootstrap:
+1.CDN - 
+2.downloading - 
+
+*heading classes:
+.display-1 to display-6
+.small
+
+*there are two type of container
+1.container class 			: it takes 15px margin fron left and right side of an element
+2.container-fluid class		: it takes fullwidth of its screen
+
+*color classes
+*button classes
+========================================================================================================================================
+6/10/2021
+
+*spinner classes and
+*grow button classes
+*alert button
+*image classes
+*table classes
+
+*grid concept : we can make website or webapp responsive according different screen width-in greed there is one limitation and that is in
+				reach row we can create only 12 columan
+				.row,col
+				*screen sizes
+========================================================================================================================================
+7/10/2021
+
+*form classes
+1.form-group:  in this input will get fullwidth
+2.form-inline: in this input control will get specific width
+
+*To perform form validation there are two ways
+1- was-validated: it will display error before perssing submit button
+2- needs-validated:it will display error after perssing submit button

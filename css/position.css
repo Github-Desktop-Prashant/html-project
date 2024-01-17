@@ -1,0 +1,32 @@
+.myHeader {
+    background-color: cyan;
+    height: 83px;
+    border-bottom: 3px solid red;
+}
+
+.myTitle {
+    font-size: 25px;
+    font-weight: 700;
+    color: red;
+    text-shadow: 4px 3px 2px black;
+    left: 100px;
+    top: 19px;
+    position: relative;
+}
+
+.parent {
+    border: 3px solid blue;
+    height: 110px;
+    width: 400px;
+    background-color: lightgray;
+    position: relative;
+}
+
+.child {
+    border: 3px solid green;
+    height: 35px;
+    width: 132px;
+    background-color: pink;
+    position: absolute;
+    right: 0px;
+}

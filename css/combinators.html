@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* descendant combinator */
+        div p {
+            background-color: brown;
+            color: cyan;
+        }
+
+        /* child combinator */
+
+        div>p {
+            font-size: 25px;
+            background-color: blueviolet;
+            text-transform: uppercase;
+        }
+
+        /* adjucent sibling selector */
+        div+p {
+            color: chartreuse;
+            font-family: fantasy;
+            font-size: 30px;
+        }
+
+        div~p {
+            font-weight: 700;
+            text-decoration: underline;
+            background-color: lightcoral;
+        }
+
+        .conBlockIntoinline {
+            border: 2px solid red;
+            height: 100px;
+            width: 100px;
+
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Combinator</h2>
+
+    <div>
+        <p>This is para child -1</p>
+        <p>This is para child -2</p>
+        <p>This is para child -3</p>
+        <strong>
+            <p>This is para grand child -1</p>
+        </strong>
+        <p>This is para child -4</p>
+    </div>
+    <p>This is nearest para</p>
+    <p>This is para</p>
+    <p>This is para</p>
+    <p>This is para</p>
+
+
+    <hr>
+    <h3> convert block element into inline </h3>
+
+    <div>this is div 1</div>
+    <div>this is div 2</div>
+    <div>this is div 3</div>
+    <div>this is div 4</div>
+    <div>this is div 5</div>
+
+    <h3>convert inline element into block element </h3>
+
+    <h4>convert block element into inline element</h4>
+
+
+
+
+
+
+
+</body>
+
+</html>

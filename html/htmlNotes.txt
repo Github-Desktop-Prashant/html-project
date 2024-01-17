@@ -1,0 +1,117 @@
+Github Account
+Github Desktop- downloan
+Git BASH - download
+
+
+
+MEAN mongoDB Express Angular Nodejs
+	
+MERN mongoDB Express React Nodejs
+
+Why MERN Stack?
+	- It makes the development process easier and faster
+	- Used in top tech companies such as Walmart, Paypal, Linkedin, etc.
+	- Only the knowledge of JavaScript is essential for both front-end and back-end development
+
+
+Q.What is html 
+
+	- it is use to create structure of website or web app
+	- it is use to display data to user on browser
+	- it is use to create web pages 
+	- hyper text markup language(HTML)
+	- HTML5
+
+- it is tags basic language
+  <tags>
+  there are 2 types of tag
+  
+
+<start-tage></end-tag>
+
+
+head: it contain meta data
+body: it is use to display data on browser
+
+====================================================================================
+14/9/2021 
+
+
+Q. what is differance bet html and html5 
+Q. what are features of html5 
+Q. what are HTML API 
+
+1.symantic element: element with specific meaning.
+  header,footer,aside,nav 
+
+  <start-tag  attribute="value">  content </end-tag> 
+
+2.new input types ,new tags and new attribute:
+3.we can  use multimedia
+4.HTML API
+   1.Geolocation:if want to get user current position
+   2.Drag and Droup: grabbing an object and drag it to another location 
+   3.Webworker: it is small js programe which executed at backenfd of your webpage,without affecting your execution
+   4.webstorage: it is use to store website data on browser 
+            1.local storage: to store data parmanantly
+            2.session storage: it will store data for limited time.
+   5.SSE(server sent event):it allows us to get automatic update frome server.
+============================================================================================================
+15/09/2021 
+
+*List 
+1.Ordered List (123,ABC,abc,III,iii)
+2.Unordered List(disc,circle,square,none)
+3.Description List (dl,dt,dd)
+
+task1: create Ordered list is of type small alphabet,capital and small roman
+task2: create unordered list is of type circle and none 
+
+*types of Element 
+1.Block Element: the element which always start on new line and it takes full width of its screen
+                  ex: h1-h6,p,div,
+2.Inline Element:the element which never start on new line and it takes specific width of it.
+                  ex:b,i,strong,u,img,a 
+
+
+*how to insert image into website 
+1.Absolute path: as it is 
+2.relative path: nearest path 
+3.insert 5 images by using relative path 
+
+*inserting video 
+*inserting audio 
+======================================================================================
+16/9/2021 
+
+*how to insert geographical location into website 
+1. open google map 
+2.search location 
+3.click on shared option 
+4.click on embed map option
+5.copy that html link and paste in webpage 
+
+*how to comment text or code 
+
+*Use to anchore tage:
+*how to create link for other websit 
+*how to display own webpages 
+*use of taget="_blank" attribute
+
+task1:16/09/2021 create image as link
+
+============================================================================
+17/9/2021  
+
+*how to set icon in webpage 
+*Table : it is collection of rows column 
+-in table first we write create row and in that we create column
+*colspan 
+*rowspan 
+===============================================================================
+20/09/2021 
+
+*form : it is use to collect data from user it has multiple form control 
+formControl: input,button,radio button,checkboxes,droupdown list.
+
+=========================================================================================================================================================== 

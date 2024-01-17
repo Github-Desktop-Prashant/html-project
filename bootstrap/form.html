@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js"
+        integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form class="was-validated">
+            <div class="form-group">
+                <label for="">Enter Your Fullname:</label>
+                <input type="text" name="fname" class="form-control" placeholder="enter your fullname" required>
+                <div class="valid-feedback">valid data</div>
+                <div class="invalid-feedback">This field is requird*</div>
+            </div>
+
+            <div class="form-group">
+                <label for="">Enter Your Password:</label>
+                <input type="password" name="pass" class="form-control" placeholder="enter your password" required>
+                <div class="valid-feedback">valid data</div>
+                <div class="invalid-feedback">This field is requird*</div>
+            </div>
+
+            <div class="form-group">
+                <label for="">Enter Your Email:</label>
+                <input type="email" name="email" class="form-control" placeholder="enter your e-mail" required>
+                <div class="valid-feedback">valid data</div>
+                <div class="invalid-feedback">This field is requird*</div>
+            </div>
+
+            <div class="form-group">
+                <label for="">Enter Your Contact:</label>
+                <input type="tel" name="contact" class="form-control" placeholder="enter your contact" required>
+                <div class="valid-feedback">valid data</div>
+                <div class="invalid-feedback">This field is requird*</div>
+            </div>
+
+            <label class="form-check-label form-group">
+                <label>select Gender:</label>
+                <input type="radio" name="gender" class="form-control-input" value="male" required> Male
+                <input type="radio" name="gender" class="form-control-input" value="female" required> FeMale
+                <div class="valid-feedback">valid data</div>
+                <div class="invalid-feedback">This field is requird*</div>
+            </label>
+
+
+            <div class="mt-2">
+                <button type="submit" class="btn btn-primary">Button</button>
+            </div>
+
+        </form>
+
+    </div>
+
+<hr>
+
+<div class="container">
+    <form class="form-inline">
+        <label>Enter Your fullname:</label>
+        <input type="text" name="fname" class="form-group" required>
+        <label>Enter Your Password:</label>
+        <input type="password" name="password" required>
+
+        <div class="mt-2">
+            <button type="submit" class="btn btn-primary">Button</button>
+        </div>
+    </form>
+</div>
+</body>
+
+</html>
